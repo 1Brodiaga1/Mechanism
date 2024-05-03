@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/layout_background"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/colordark2"/>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tablayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colordark2"
+            app:tabIndicator="@drawable/tab_indicator"
+            app:tabIndicatorColor="@color/cardview_light_background"
+            app:tabTextColor="@color/colorlight2"
+            app:tabSelectedTextColor="@color/colordark2"
+            android:layout_below="@id/layout_background"
+            app:tabTextAppearance="@style/TabLayoutTextStyle"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/tablayout">
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/tablayout"
+                android:background="@color/cardview_light_background"/>
+
+            <ImageButton
+                android:id="@+id/buttonExitDetail"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="bottom|end"
+                android:layout_marginBottom="25dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/back"
+                android:backgroundTint="@android:color/transparent"
+                android:tint="@color/colorlight1"/>
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

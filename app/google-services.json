@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "104861255158",
+    "project_id": "mechanism-20ffe",
+    "storage_bucket": "mechanism-20ffe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104861255158:android:8d2b475da9defb1010b3d7",
+        "android_client_info": {
+          "package_name": "com.dvlpmnt.mobilka"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeST8WqiJc5B8IPOGf6TAdOjPgzNIylao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

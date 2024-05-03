@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="50dp"
+        android:gravity="center_horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonPatterns"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Паттерны"
+            android:textSize="20sp"
+            android:layout_marginTop="180dp"
+            android:background="@color/colordark2"
+            android:textColor="@color/colorlight3"
+            android:textStyle="bold"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonAlgoritms"
+            android:layout_width="300dp"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:text="Алгоритмы"
+            android:layout_marginTop="30dp"
+            android:background="@color/colordark2"
+            android:textColor="@color/colorlight3"
+            android:textStyle="bold"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonExit"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Выйти"
+            android:textSize="20sp"
+            android:layout_marginTop="30dp"
+            android:background="@color/colordark2"
+            android:textColor="@color/colorlight3"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

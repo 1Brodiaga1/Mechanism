@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Mobilka" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="background">@color/cardview_light_background</item>
+    </style>
+
+    <style name="Theme.Mobilka" parent="Base.Theme.Mobilka" />
+</resources>
